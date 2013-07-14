@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rack-flags', '~> 0.1.1'
+#gem 'rack-flags', '~> 0.1.1'
+gem 'rack-flags', :github => "moredip/rack-flags", :branch => 'admin_app_sinatra'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
