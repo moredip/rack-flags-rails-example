@@ -1,3 +1,7 @@
-foo:
- description: it's a feature
+coffees:
+ description: Allow access to our Coffees product line
+ default: true
+
+sandwiches:
+ description: Allow access to our new Sandwiches product line
  default: false

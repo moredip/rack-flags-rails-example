@@ -1,6 +1,12 @@
 RackFlagsRailsExample::Application.routes.draw do
 
+  get "products/donuts"
+  get "products/coffee"
+  get "products/sandwiches"
+
   root 'welcome#index'
+
+  resource :products
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

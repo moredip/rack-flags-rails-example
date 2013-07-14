@@ -1,0 +1,12 @@
+<h1>Welcome to Donutz Emporium</h1>
+
+<h2>Products</h2>
+<ul>
+  <li><%=link_to 'Donuts!', products_donuts_path%></li>
+  <%if @show_coffees%>
+    <li><%=link_to 'Coffee!', products_coffee_path%></li>
+  <%end%>
+  <%if @show_sandwiches%>
+    <li><%=link_to 'Sandwiches!', products_sandwiches_path%></li>
+  <%end%>
+</ul>
