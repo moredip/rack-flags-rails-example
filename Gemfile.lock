@@ -56,7 +56,7 @@ GEM
     pg (0.15.1)
     polyglot (0.3.3)
     rack (1.5.2)
-    rack-flags (0.1.3)
+    rack-flags (0.2.0)
       rack (~> 1.4)
       rake
       sinatra (~> 1.3)
@@ -124,7 +124,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   pg
-  rack-flags (~> 0.1.3)
+  rack-flags (~> 0.2.0)
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
